@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634A93AB194A968400A109F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A93AA194A968400A109F6 /* Foundation.framework */; };
+		634A93AD194A968400A109F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A93AC194A968400A109F6 /* CoreGraphics.framework */; };
+		634A93AF194A968400A109F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A93AE194A968400A109F6 /* UIKit.framework */; };
+		634A93B5194A968400A109F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 634A93B3194A968400A109F6 /* InfoPlist.strings */; };
+		634A93B7194A968400A109F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A93B6194A968400A109F6 /* main.m */; };
+		634A93BB194A968400A109F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A93BA194A968400A109F6 /* AppDelegate.m */; };
+		634A93BE194A968400A109F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634A93BC194A968400A109F6 /* Main.storyboard */; };
+		634A93C1194A968400A109F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A93C0194A968400A109F6 /* ViewController.m */; };
+		634A93C3194A968400A109F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634A93C2194A968400A109F6 /* Images.xcassets */; };
+		634A93CA194A968400A109F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A93C9194A968400A109F6 /* XCTest.framework */; };
+		634A93CB194A968400A109F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A93AA194A968400A109F6 /* Foundation.framework */; };
+		634A93CC194A968400A109F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634A93AE194A968400A109F6 /* UIKit.framework */; };
+		634A93D4194A968400A109F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 634A93D2194A968400A109F6 /* InfoPlist.strings */; };
+		634A93D6194A968400A109F6 /* AirConditionForSeoulTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 634A93D5194A968400A109F6 /* AirConditionForSeoulTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		634A93CD194A968400A109F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634A939F194A968400A109F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 634A93A6194A968400A109F6;
+			remoteInfo = AirConditionForSeoul;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		634A93A7194A968400A109F6 /* AirConditionForSeoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirConditionForSeoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		634A93AA194A968400A109F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		634A93AC194A968400A109F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		634A93AE194A968400A109F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		634A93B2194A968400A109F6 /* AirConditionForSeoul-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirConditionForSeoul-Info.plist"; sourceTree = "<group>"; };
+		634A93B4194A968400A109F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		634A93B6194A968400A109F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		634A93B8194A968400A109F6 /* AirConditionForSeoul-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirConditionForSeoul-Prefix.pch"; sourceTree = "<group>"; };
+		634A93B9194A968400A109F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		634A93BA194A968400A109F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		634A93BD194A968400A109F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		634A93BF194A968400A109F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		634A93C0194A968400A109F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		634A93C2194A968400A109F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		634A93C8194A968400A109F6 /* AirConditionForSeoulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirConditionForSeoulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		634A93C9194A968400A109F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		634A93D1194A968400A109F6 /* AirConditionForSeoulTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirConditionForSeoulTests-Info.plist"; sourceTree = "<group>"; };
+		634A93D3194A968400A109F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		634A93D5194A968400A109F6 /* AirConditionForSeoulTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirConditionForSeoulTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		634A93A4194A968400A109F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634A93AD194A968400A109F6 /* CoreGraphics.framework in Frameworks */,
+				634A93AF194A968400A109F6 /* UIKit.framework in Frameworks */,
+				634A93AB194A968400A109F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634A93C5194A968400A109F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634A93CA194A968400A109F6 /* XCTest.framework in Frameworks */,
+				634A93CC194A968400A109F6 /* UIKit.framework in Frameworks */,
+				634A93CB194A968400A109F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634A939E194A968400A109F6 = {
+			isa = PBXGroup;
+			children = (
+				634A93B0194A968400A109F6 /* AirConditionForSeoul */,
+				634A93CF194A968400A109F6 /* AirConditionForSeoulTests */,
+				634A93A9194A968400A109F6 /* Frameworks */,
+				634A93A8194A968400A109F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		634A93A8194A968400A109F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				634A93A7194A968400A109F6 /* AirConditionForSeoul.app */,
+				634A93C8194A968400A109F6 /* AirConditionForSeoulTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634A93A9194A968400A109F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				634A93AA194A968400A109F6 /* Foundation.framework */,
+				634A93AC194A968400A109F6 /* CoreGraphics.framework */,
+				634A93AE194A968400A109F6 /* UIKit.framework */,
+				634A93C9194A968400A109F6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		634A93B0194A968400A109F6 /* AirConditionForSeoul */ = {
+			isa = PBXGroup;
+			children = (
+				634A93B9194A968400A109F6 /* AppDelegate.h */,
+				634A93BA194A968400A109F6 /* AppDelegate.m */,
+				634A93BC194A968400A109F6 /* Main.storyboard */,
+				634A93BF194A968400A109F6 /* ViewController.h */,
+				634A93C0194A968400A109F6 /* ViewController.m */,
+				634A93C2194A968400A109F6 /* Images.xcassets */,
+				634A93B1194A968400A109F6 /* Supporting Files */,
+			);
+			path = AirConditionForSeoul;
+			sourceTree = "<group>";
+		};
+		634A93B1194A968400A109F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				634A93B2194A968400A109F6 /* AirConditionForSeoul-Info.plist */,
+				634A93B3194A968400A109F6 /* InfoPlist.strings */,
+				634A93B6194A968400A109F6 /* main.m */,
+				634A93B8194A968400A109F6 /* AirConditionForSeoul-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		634A93CF194A968400A109F6 /* AirConditionForSeoulTests */ = {
+			isa = PBXGroup;
+			children = (
+				634A93D5194A968400A109F6 /* AirConditionForSeoulTests.m */,
+				634A93D0194A968400A109F6 /* Supporting Files */,
+			);
+			path = AirConditionForSeoulTests;
+			sourceTree = "<group>";
+		};
+		634A93D0194A968400A109F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				634A93D1194A968400A109F6 /* AirConditionForSeoulTests-Info.plist */,
+				634A93D2194A968400A109F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		634A93A6194A968400A109F6 /* AirConditionForSeoul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634A93D9194A968400A109F6 /* Build configuration list for PBXNativeTarget "AirConditionForSeoul" */;
+			buildPhases = (
+				634A93A3194A968400A109F6 /* Sources */,
+				634A93A4194A968400A109F6 /* Frameworks */,
+				634A93A5194A968400A109F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirConditionForSeoul;
+			productName = AirConditionForSeoul;
+			productReference = 634A93A7194A968400A109F6 /* AirConditionForSeoul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		634A93C7194A968400A109F6 /* AirConditionForSeoulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634A93DC194A968400A109F6 /* Build configuration list for PBXNativeTarget "AirConditionForSeoulTests" */;
+			buildPhases = (
+				634A93C4194A968400A109F6 /* Sources */,
+				634A93C5194A968400A109F6 /* Frameworks */,
+				634A93C6194A968400A109F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				634A93CE194A968400A109F6 /* PBXTargetDependency */,
+			);
+			name = AirConditionForSeoulTests;
+			productName = AirConditionForSeoulTests;
+			productReference = 634A93C8194A968400A109F6 /* AirConditionForSeoulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		634A939F194A968400A109F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hconnect;
+				TargetAttributes = {
+					634A93C7194A968400A109F6 = {
+						TestTargetID = 634A93A6194A968400A109F6;
+					};
+				};
+			};
+			buildConfigurationList = 634A93A2194A968400A109F6 /* Build configuration list for PBXProject "AirConditionForSeoul" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 634A939E194A968400A109F6;
+			productRefGroup = 634A93A8194A968400A109F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				634A93A6194A968400A109F6 /* AirConditionForSeoul */,
+				634A93C7194A968400A109F6 /* AirConditionForSeoulTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		634A93A5194A968400A109F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634A93C3194A968400A109F6 /* Images.xcassets in Resources */,
+				634A93B5194A968400A109F6 /* InfoPlist.strings in Resources */,
+				634A93BE194A968400A109F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634A93C6194A968400A109F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634A93D4194A968400A109F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		634A93A3194A968400A109F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634A93C1194A968400A109F6 /* ViewController.m in Sources */,
+				634A93BB194A968400A109F6 /* AppDelegate.m in Sources */,
+				634A93B7194A968400A109F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		634A93C4194A968400A109F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634A93D6194A968400A109F6 /* AirConditionForSeoulTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		634A93CE194A968400A109F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 634A93A6194A968400A109F6 /* AirConditionForSeoul */;
+			targetProxy = 634A93CD194A968400A109F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		634A93B3194A968400A109F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634A93B4194A968400A109F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		634A93BC194A968400A109F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634A93BD194A968400A109F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		634A93D2194A968400A109F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				634A93D3194A968400A109F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		634A93D7194A968400A109F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		634A93D8194A968400A109F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634A93DA194A968400A109F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirConditionForSeoul/AirConditionForSeoul-Prefix.pch";
+				INFOPLIST_FILE = "AirConditionForSeoul/AirConditionForSeoul-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		634A93DB194A968400A109F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirConditionForSeoul/AirConditionForSeoul-Prefix.pch";
+				INFOPLIST_FILE = "AirConditionForSeoul/AirConditionForSeoul-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		634A93DD194A968400A109F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirConditionForSeoul.app/AirConditionForSeoul";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirConditionForSeoul/AirConditionForSeoul-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AirConditionForSeoulTests/AirConditionForSeoulTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		634A93DE194A968400A109F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirConditionForSeoul.app/AirConditionForSeoul";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirConditionForSeoul/AirConditionForSeoul-Prefix.pch";
+				INFOPLIST_FILE = "AirConditionForSeoulTests/AirConditionForSeoulTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634A93A2194A968400A109F6 /* Build configuration list for PBXProject "AirConditionForSeoul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634A93D7194A968400A109F6 /* Debug */,
+				634A93D8194A968400A109F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634A93D9194A968400A109F6 /* Build configuration list for PBXNativeTarget "AirConditionForSeoul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634A93DA194A968400A109F6 /* Debug */,
+				634A93DB194A968400A109F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		634A93DC194A968400A109F6 /* Build configuration list for PBXNativeTarget "AirConditionForSeoulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634A93DD194A968400A109F6 /* Debug */,
+				634A93DE194A968400A109F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 634A939F194A968400A109F6 /* Project object */;
+}
