@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *btnLocation;
+@property (weak, nonatomic) IBOutlet UIButton *btnSetting;
+@property (weak, nonatomic) IBOutlet UIButton *btnRefresh;
+@property (weak, nonatomic) IBOutlet UILabel *lblAirCondition;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 
 @end
